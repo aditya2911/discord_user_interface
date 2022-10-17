@@ -1,4 +1,4 @@
-import 'package:discord_ui/gen/assets.gen.dart';
+import '../gen/assets.gen.dart';
 
 $AssetsImagesGen asset = const $AssetsImagesGen();
 List<AssetGenImage> imageAssetslist = [

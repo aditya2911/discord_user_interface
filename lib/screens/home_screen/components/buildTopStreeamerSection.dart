@@ -4,8 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../config/colors.dart';
 import '../../../config/image_assets_list.dart';
 
-class buildTopStreamerSection extends StatelessWidget {
-  const buildTopStreamerSection({
+class BuildTopStreamerSection extends StatelessWidget {
+  const BuildTopStreamerSection({
     Key? key,
   }) : super(key: key);
 
@@ -16,38 +16,33 @@ class buildTopStreamerSection extends StatelessWidget {
         height: 196.h,
         margin: EdgeInsets.only(left: 24.w, top: 32.h),
         child: Column(children: [
-          Container(
-            child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Container(
-                    width: 193.w,
-                    height: 30.h,
-                    alignment: Alignment.centerLeft,
-                    child: FittedBox(
+          Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+            Container(
+              width: 193.w,
+              height: 30.h,
+              alignment: Alignment.centerLeft,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text("Top Streamers Live",
+                    style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        letterSpacing: 1.1,
+                        color: AppColors.secondary.white)),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(right: 24.w),
+              child: SizedBox(
+                  width: 44.w,
+                  height: 15.h,
+                  child: FittedBox(
                       fit: BoxFit.scaleDown,
-                      child: Text("Top Streamers Live",
-                          style: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              letterSpacing: 1.1,
-                              color: AppColors.secondary.white)),
-                    ),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.only(right: 24.w),
-                    child: SizedBox(
-                        width: 44.w,
-                        height: 15.h,
-                        child: FittedBox(
-                            fit: BoxFit.scaleDown,
-                            child: Text(
-                              "View all",
-                              style: TextStyle(
-                                  color: AppColors.secondary.lightGray),
-                            ))),
-                  ),
-                ]),
-          ),
+                      child: Text(
+                        "View all",
+                        style: TextStyle(color: AppColors.secondary.lightGray),
+                      ))),
+            ),
+          ]),
           Container(
             margin: EdgeInsets.only(top: 16.h),
             width: double.infinity,

@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
 import '../../../config/colors.dart';
-import '../../../config/image_assets_list.dart';
 
 class BuildGameSection extends StatelessWidget {
   const BuildGameSection({

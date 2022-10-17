@@ -1,13 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 
-import '../../../config/colors.dart';
 import '../../../config/image_assets_list.dart';
 
-class buildLiveCarouselSlider extends StatelessWidget {
-  const buildLiveCarouselSlider({
+class BuildLiveCarouselSlider extends StatelessWidget {
+  const BuildLiveCarouselSlider({
     Key? key,
   }) : super(key: key);
 

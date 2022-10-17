@@ -1,6 +1,7 @@
-import 'package:discord_ui/config/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../../../config/colors.dart';
 
 class OptionSection extends StatelessWidget {
   const OptionSection({Key? key}) : super(key: key);
@@ -8,7 +9,7 @@ class OptionSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [
+      children: const [
         OptionTabs(
           text: 'Games',
           isEnabled: true,

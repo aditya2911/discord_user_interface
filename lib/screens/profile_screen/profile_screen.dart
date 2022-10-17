@@ -1,10 +1,10 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:discord_ui/config/colors.dart';
-import 'package:discord_ui/config/image_assets_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../../config/colors.dart';
+import '../../config/image_assets_list.dart';
 import '../../gen/assets.gen.dart';
 import 'components/info_buttons.dart';
 import 'components/option_section.dart';

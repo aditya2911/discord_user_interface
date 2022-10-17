@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../config/colors.dart';
 
-class buildBottomNavigationBar extends StatelessWidget {
-  const buildBottomNavigationBar({
+class BuildBottomNavigationBar extends StatelessWidget {
+  const BuildBottomNavigationBar({
     Key? key,
   }) : super(key: key);
 

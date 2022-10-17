@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 
 import '../../../config/colors.dart';
-import '../../../config/image_assets_list.dart';
 
-class buildSearchBar extends StatelessWidget {
-  const buildSearchBar({
+class BuildSearchBar extends StatelessWidget {
+  const BuildSearchBar({
     Key? key,
   }) : super(key: key);
 

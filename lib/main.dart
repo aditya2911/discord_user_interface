@@ -1,10 +1,9 @@
-import 'package:discord_ui/screens/profile_screen/profile_screen.dart';
 import 'package:flutter/material.dart';
-// ignore: depend_on_referenced_packages
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'config/colors.dart';
+import 'screens/profile_screen/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
