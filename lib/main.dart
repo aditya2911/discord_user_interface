@@ -1,9 +1,9 @@
+import 'package:discord_ui/screens/game_info_screen/gameInforScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'config/colors.dart';
-import 'screens/profile_screen/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     bodyText1: GoogleFonts.poppins(),
                     bodyText2: GoogleFonts.poppins(),
                   )),
-              child: const SafeArea(child: ProfileScreen()));
+              child: const SafeArea(child: GameInfoScreen()));
         });
   }
 }

@@ -39,6 +39,10 @@ class $AssetsImagesGen {
   AssetGenImage get animated5 =>
       const AssetGenImage('assets/images/animated5.jpg');
 
+  /// File path: assets/images/fortnite.jpeg
+  AssetGenImage get fortnite =>
+      const AssetGenImage('assets/images/fortnite.jpeg');
+
   /// File path: assets/images/gameplay1.jpg
   AssetGenImage get gameplay1 =>
       const AssetGenImage('assets/images/gameplay1.jpg');
@@ -64,11 +68,19 @@ class $AssetsImagesGen {
       const AssetGenImage('assets/images/overwatchLogo.jpeg');
 }
 
+class $AssetsSvgGen {
+  const $AssetsSvgGen();
+
+  /// File path: assets/svg/overwatch.svg
+  String get overwatch => 'assets/svg/overwatch.svg';
+}
+
 class Assets {
   Assets._();
 
   static const $AssetsFontsGen fonts = $AssetsFontsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsSvgGen svg = $AssetsSvgGen();
 }
 
 class AssetGenImage {
