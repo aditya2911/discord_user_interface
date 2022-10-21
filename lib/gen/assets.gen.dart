@@ -66,6 +66,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/overwatchLogo.jpeg
   AssetGenImage get overwatchLogo =>
       const AssetGenImage('assets/images/overwatchLogo.jpeg');
+
+  /// File path: assets/images/user.jpeg
+  AssetGenImage get user => const AssetGenImage('assets/images/user.jpeg');
 }
 
 class $AssetsSvgGen {
