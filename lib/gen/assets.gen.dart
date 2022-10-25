@@ -63,9 +63,17 @@ class $AssetsImagesGen {
   AssetGenImage get gameplay5 =>
       const AssetGenImage('assets/images/gameplay5.jpg');
 
+  /// File path: assets/images/live_gampeplay.jpeg
+  AssetGenImage get liveGampeplay =>
+      const AssetGenImage('assets/images/live_gampeplay.jpeg');
+
   /// File path: assets/images/overwatchLogo.jpeg
   AssetGenImage get overwatchLogo =>
       const AssetGenImage('assets/images/overwatchLogo.jpeg');
+
+  /// File path: assets/images/streamers.jpeg
+  AssetGenImage get streamers =>
+      const AssetGenImage('assets/images/streamers.jpeg');
 
   /// File path: assets/images/user.jpeg
   AssetGenImage get user => const AssetGenImage('assets/images/user.jpeg');
@@ -74,8 +82,17 @@ class $AssetsImagesGen {
 class $AssetsSvgGen {
   const $AssetsSvgGen();
 
+  /// File path: assets/svg/eye.svg
+  String get eye => 'assets/svg/eye.svg';
+
   /// File path: assets/svg/overwatch.svg
   String get overwatch => 'assets/svg/overwatch.svg';
+
+  /// File path: assets/svg/user.svg
+  String get user => 'assets/svg/user.svg';
+
+  /// File path: assets/svg/user_animated.svg
+  String get userAnimated => 'assets/svg/user_animated.svg';
 }
 
 class Assets {

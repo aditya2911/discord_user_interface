@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../config/colors.dart';
+import 'build_following_button.dart';
 import 'build_info_list.dart';
 
 class BuildGameInformation extends StatelessWidget {
@@ -33,20 +34,7 @@ class BuildGameInformation extends StatelessWidget {
                         fontSize: 28.sp,
                         color: AppColors.secondary.white),
                   ),
-                  SizedBox(
-                    width: 101.w,
-                    height: 38.h,
-                    child: ElevatedButton(
-                        onPressed: () {},
-                        style: ElevatedButton.styleFrom(
-                            backgroundColor: AppColors.primary.lightOrange,
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(12.r))),
-                        child: Text(
-                          "Following",
-                          style: TextStyle(color: AppColors.primary.black),
-                        )),
-                  )
+                  const BuildFollowingButton()
                 ],
               ),
             ),

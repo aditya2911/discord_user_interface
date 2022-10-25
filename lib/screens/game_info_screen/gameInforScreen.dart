@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'components/background_image.dart';
+import 'components/build_card.dart';
 import 'components/build_game_information.dart';
 import 'components/gradient.dart';
 import 'components/scrollable_sheet.dart';
@@ -45,7 +46,24 @@ class GameInfoScreen extends StatelessWidget {
               BuildGameInformation()
             ]),
           ),
-          const ScrollableSheet()
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: SizedBox(
+              height: 420.h,
+              child: Expanded(
+                child: ScrollableSheet(
+                  title: 'Live Channels',
+                  child: ListView.builder(
+                    padding: EdgeInsets.only(top: 16.h),
+                    itemCount: 10,
+                    itemBuilder: (context, index) {
+                      return const BuildCard();
+                    },
+                  ),
+                ),
+              ),
+            ),
+          )
         ],
       ),
     ));
